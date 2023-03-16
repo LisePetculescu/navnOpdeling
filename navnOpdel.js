@@ -8,7 +8,7 @@ console.log(spaceFirst);
 const spaceEnd = fullName.lastIndexOf(" ") + 1;
 console.log(spaceEnd);
 
-const firstName = fullName.substring(0,spaceFirst - 1);
+const firstName = fullName.substring(0, spaceFirst - 1);
 console.log(`#${firstName}£`);
 
 const middleName = fullName.substring(spaceFirst, spaceEnd - 1);
